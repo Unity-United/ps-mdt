@@ -19,9 +19,9 @@ Config.ClockinWebhook = 'https://discord.com/api/webhooks/1100114679336026264/Dg
 Config.BillVariation = true
 
 -- Set up your inventory to automatically retrieve images when a weapon is registered at a weapon shop or self-registered.
--- If you're utilizing lj-inventory's latest version from GitHub, no further modifications are necessary. 
+-- If you're utilizing qb-inventory's latest version from GitHub, no further modifications are necessary. 
 -- However, if you're using a different inventory system, please refer to the "Inventory Edit | Automatic Add Weapons with images" section in ps-mdt's README.
-Config.InventoryForWeaponsImages = "lj-inventory"
+Config.InventoryForWeaponsImages = "qb-inventory"
 
 -- "ps-fuel", "lj-fuel", "ps-fuel"
 Config.Fuel = "ps-fuel"
