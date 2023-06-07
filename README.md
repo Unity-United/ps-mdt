@@ -96,8 +96,8 @@ police:server:JailPlayer
 ```
 
 # Inventory Edit | Automatic Add Weapons with images
-* [qb-inventory](https://github.com/loljoshie/qb-inventory) will come already with the changes needed for this to work. 
-* [qb-inventory](https://github.com/qbcore-framework/qb-inventory) follow instructions below. 
+* [lj-inventory](https://github.com/loljoshie/lj-inventory) will come already with the changes needed for this to work. 
+* [lj-inventory](https://github.com/qbcore-framework/lj-inventory) follow instructions below. 
 
 1. Edit the following event
 ```
@@ -111,7 +111,7 @@ RegisterNetEvent('inventory:server:SetInventoryData', function(fromInventory, to
                     itemData.info.quality = 100
                 end
                 local serial = itemData.info.serie
-                local imageurl = ("https://cfx-nui-qb-inventory/html/images/%s.png"):format(itemData.name)
+                local imageurl = ("https://cfx-nui-lj-inventory/html/images/%s.png"):format(itemData.name)
                 local notes = "Purchased at Ammunation"
                 local owner = Player.PlayerData.charinfo.firstname .. " " .. Player.PlayerData.charinfo.lastname
                 local weapClass = 1
@@ -128,7 +128,7 @@ RegisterNetEvent('inventory:server:SetInventoryData', function(fromInventory, to
                     itemData.info.quality = 100
                 end
                 local serial = itemData.info.serie
-                local imageurl = ("https://cfx-nui-qb-inventory/html/images/%s.png"):format(itemData.name)
+                local imageurl = ("https://cfx-nui-lj-inventory/html/images/%s.png"):format(itemData.name)
                 local notes = "Purchased at Ammunation"
                 local owner = Player.PlayerData.charinfo.firstname .. " " .. Player.PlayerData.charinfo.lastname
                 local weapClass = 1
